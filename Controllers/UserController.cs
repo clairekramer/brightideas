@@ -61,7 +61,7 @@ namespace brightideas.Controllers
                 }
             }
             else {
-                ViewBag.errors = "Invalid Username";
+                ViewBag.errors = "Invalid Email";
                 return View("Index");
             }
         }
